@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="10dp"
+    android:orientation="vertical"
+    android:gravity="center"
     tools:context="com.example.mahadi.androidwidget.MainActivity">
 <TextView
     android:layout_width="wrap_content"
@@ -14,6 +16,14 @@
     android:textStyle="bold"
     android:textColor="@android:color/holo_green_light"
     android:textAllCaps="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is anather text"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_purple"/>
 
 
 </LinearLayout>
