@@ -1,8 +1,5 @@
 <resources>
     <string name="app_name">AndroidWidget</string>
-    <string name="large_text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin elementum, lectus non euismod pharetra, erat ante dictum nulla, a pharetra lectus turpis in erat. Sed at sagittis magna, eu dignissim arcu. Aliquam erat volutpat. Vivamus tempor, leo vel porta volutpat, ex velit eleifend enim, elementum vulputate odio nulla pulvinar mi. Nam risus diam, commodo a commodo quis, bibendum vel erat. Morbi efficitur massa eget enim consectetur vehicula. Praesent laoreet hendrerit ornare. Cras orci mauris, malesuada et nisi non, volutpat vestibulum lectus. Aliquam nibh ipsum, tristique tempus vulputate et, tristique et sapien. Ut blandit porttitor neque eget sodales. Integer iaculis consequat augue. Praesent consequat ac libero at laoreet. Nullam aliquam faucibus suscipit. Nullam sed tincidunt lorem, a varius enim. Sed vel consequat sem. Curabitur sit amet tortor semper neque rhoncus rhoncus.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin elementum, lectus non euismod pharetra, erat ante dictum nulla, a pharetra lectus turpis in erat. Sed at sagittis magna, eu dignissim arcu. Aliquam erat volutpat. Vivamus tempor, leo vel porta volutpat, ex velit eleifend enim, elementum vulputate odio nulla pulvinar mi. Nam risus diam, commodo a commodo quis, bibendum vel erat. Morbi efficitur massa eget enim consectetur vehicula. Praesent laoreet hendrerit ornare. Cras orci mauris, malesuada et nisi non, volutpat vestibulum lectus. Aliquam nibh ipsum, tristique tempus vulputate et, tristique et sapien. Ut blandit porttitor neque eget sodales. Integer iaculis consequat augue. Praesent consequat ac libero at laoreet. Nullam aliquam faucibus suscipit. Nullam sed tincidunt lorem, a varius enim. Sed vel consequat sem. Curabitur sit amet tortor semper neque rhoncus rhoncus.
-
-    </string>
+    <string name="mahadi_hasan">Mahadi Hasan</string>
+    <string name="_26_years_old">26 Years Old</string>
 </resources>
