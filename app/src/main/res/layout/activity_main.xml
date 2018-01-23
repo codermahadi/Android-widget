@@ -15,13 +15,5 @@
     android:textColor="@android:color/holo_green_light"
     android:textAllCaps="true" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="btn"
-        android:id="@+id/btn"
-        android:textColor="@android:color/holo_green_light"
-        android:background="@android:color/holo_purple"
-        android:layout_marginLeft="20dp"/>
 
 </LinearLayout>
