@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:padding="10dp"
     android:gravity="center"
+    android:background="#333"
     android:orientation="vertical"
     tools:context="com.example.mahadi.androidwidget.MainActivity">
 
