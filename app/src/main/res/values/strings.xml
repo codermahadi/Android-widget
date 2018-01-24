@@ -2,4 +2,5 @@
     <string name="app_name">AndroidWidget</string>
     <string name="mahadi_hasan">Mahadi Hasan</string>
     <string name="_26_years_old">26 Years Old</string>
+    <string name="logout">Logout</string>
 </resources>

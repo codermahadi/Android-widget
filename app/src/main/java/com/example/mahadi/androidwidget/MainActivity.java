@@ -6,11 +6,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     private TextView name,age,textShow;
-    Button btn;
-    public int count;
+    Button login,logout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,18 +20,29 @@ public class MainActivity extends AppCompatActivity {
         textShow = (TextView) findViewById(R.id.text3);
         age = (TextView) findViewById(R.id.age);
 
+        login = (Button) findViewById(R.id.login);
+        logout = (Button) findViewById(R.id.logout);
+
         name.setText("Anisul Islam");
         age.setText("25 years Old");
 
-        btn  = (Button) findViewById(R.id.btn);
-        
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                count++;
-                textShow.setText("You clicked " + count + " Times");
-            }
-        });
+        login.setOnClickListener(this);
+        logout.setOnClickListener(this);
+
+    }
+
+    @Override
+    public void onClick(View view) {
+
+        if (view.getId()==R.id.login){
+
+            textShow.setText("You Clicked Log In Button");
+        }else if (view.getId()==R.id.logout){
+
+            textShow.setText("You Clicked Log Out Button");
+        }else {
+            textShow.setText("Please Clicked Login or logout button");
+        }
 
     }
 }
