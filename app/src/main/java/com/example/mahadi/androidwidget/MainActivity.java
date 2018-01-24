@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+public class MainActivity extends AppCompatActivity{
 
     private TextView name,age,textShow;
     Button login,logout;
@@ -26,23 +26,28 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         name.setText("Anisul Islam");
         age.setText("25 years Old");
 
-        login.setOnClickListener(this);
-        logout.setOnClickListener(this);
+        Hendler hendler = new Hendler();
+
+        login.setOnClickListener(hendler);
+        logout.setOnClickListener(hendler);
 
     }
 
-    @Override
-    public void onClick(View view) {
+    class Hendler implements View.OnClickListener{
 
-        if (view.getId()==R.id.login){
+        @Override
+        public void onClick(View view) {
+            if (view.getId()==R.id.login){
 
-            textShow.setText("You Clicked Log In Button");
-        }else if (view.getId()==R.id.logout){
+                textShow.setText("You Clicked Log In Button");
+            }else if (view.getId()==R.id.logout){
 
-            textShow.setText("You Clicked Log Out Button");
-        }else {
-            textShow.setText("Please Clicked Login or logout button");
+                textShow.setText("You Clicked Log Out Button");
+            }else {
+                textShow.setText("Please Clicked Login or logout button");
+            }
         }
-
     }
+
+
 }
