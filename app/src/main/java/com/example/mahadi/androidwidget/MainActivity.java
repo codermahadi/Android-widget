@@ -26,28 +26,21 @@ public class MainActivity extends AppCompatActivity{
         name.setText("Anisul Islam");
         age.setText("25 years Old");
 
-        Hendler hendler = new Hendler();
-
-        login.setOnClickListener(hendler);
-        logout.setOnClickListener(hendler);
 
     }
+    public void showMsg(View view){
+        if (view.getId()==R.id.login){
 
-    class Hendler implements View.OnClickListener{
+            textShow.setText("You Clicked Log In Button");
+        }else if (view.getId()==R.id.logout){
 
-        @Override
-        public void onClick(View view) {
-            if (view.getId()==R.id.login){
-
-                textShow.setText("You Clicked Log In Button");
-            }else if (view.getId()==R.id.logout){
-
-                textShow.setText("You Clicked Log Out Button");
-            }else {
-                textShow.setText("Please Clicked Login or logout button");
-            }
+            textShow.setText("You Clicked Log Out Button");
+        }else {
+            textShow.setText("Please Clicked Login or logout button");
         }
     }
+
+
 
 
 }

@@ -39,6 +39,7 @@
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_marginLeft="90dp"
+          android:onClick="showMsg"
           android:layout_marginTop="20dp"
           android:background="@color/colorAccent"
           android:textColor="#fff"/>
@@ -47,6 +48,7 @@
           android:text="@string/logout"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
+          android:onClick="showMsg"
           android:layout_marginLeft="30dp"
           android:layout_marginTop="20dp"
           android:background="@color/colorAccent"
